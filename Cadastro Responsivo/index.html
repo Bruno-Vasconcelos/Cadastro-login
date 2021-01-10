@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sign In & Sign Up & Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Formulario -->
+        <div class="container-formulario">
+            <div class="logar-registrar">
+                <form action="" class="logar-formulario">
+                    <!-- campo de usuario -->
+                    <h2 class="titulo">Iniciar sessão</h2>
+                    <div class="campoInput">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Usuário">
+                    </div>
+                    <!-- campo de senha -->
+                    <div class="campoInput">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Senha">
+                    </div>
+                    <input type="submit" value="Login" class="botao solid">
+
+                    <!-- redes sociais -->
+                    <p class="textoSocial">Ou entre com uma rede social</p>
+                    <div class="social-media">
+                        <a href="#" class="iconeSocial">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="iconeSocial">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="iconeSocial">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="iconeSocial">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
+                </form>
+
+
+                <form action="" class="cadastrar-formulario">
+                    <!-- campo de usuario -->
+                    <h2 class="titulo">Cadastrar</h2>
+                    <div class="campoInput">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Usuário">
+                    </div>
+                    <!-- campo de email -->
+                    <div class="campoInput">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <!-- campo de senha -->
+                    <div class="campoInput">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Senha">
+                    </div>
+                    <input type="submit" value="cadastrar" class="botao solid">
+
+                    <!-- redes sociais -->
+                    <p class="textoSocial">Ou cadastre com uma rede social</p>
+                    <div class="social-media">
+                        <a href="#" class="iconeSocial">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="iconeSocial">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="iconeSocial">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="iconeSocial">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="painel-container">
+            <div class="painel painelEsquerdo">
+                <div class="conteudo">
+                    <h3>Novo por aqui ?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie cursus efficitur.</p>
+                    <button onclick="botao_cadastrofunction()" class="botao transparente" id="botao-cadastro">Cadastre-se</button>
+                </div>
+                <img src="images\undraw_maker_launch_crhe.svg" class="imagem" alt="">
+            </div>
+
+            <div class="painel painelDireito">
+                <div class="conteudo">
+                    <h3>Já é um de nós ?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie cursus efficitur.</p>
+                    <button onclick="botao_logarfunction()" class="botao transparente" id="botao-logar">Entrar</button>
+                </div>
+                <img src="images\undraw_press_play_bx2d.svg" class="imagem" alt="">
+            </div>
+        </div>
+    </div>
+    <script async src="index.js"></script>
+</body>
+</html>
